@@ -33,6 +33,12 @@ npm install ensurejs
   // Throws if "x" is null or undefined
   ensure(x).isNotNull();
 
+  // Throws if "x" and "y" are not equal
+  ensure(x).isEqualTo(y);
+
+  // Throws if "x" and "y" are equal
+  ensure(x).isNotEqualTo(y);
+
   // Throws if "x" is less than or equal to "y"
   ensure(x).isGreaterThan(y);
 
