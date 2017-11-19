@@ -1,0 +1,14 @@
+{
+  "name": "nsure",
+  "version": "1.0.0",
+  "description": "An assertion utility library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Craig Younker <cryo2010@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
